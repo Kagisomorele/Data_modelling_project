@@ -4,11 +4,10 @@
 
 # Analysing News Articles Dataset
 
-
 ![](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](URL_TO_YOUR_APP)
 
 <div id="main image" align="center">
-  <img src="https://github.com/ereshia/2401FTDS_Classification_Project/blob/main/announcement-article-articles-copy-coverage.jpg" width="550" height="300" alt=""/>
+  <img src="https://your-updated-image-link.com" width="550" height="300" alt="News Analysis"/>
 </div>
 
 ## Table of contents
@@ -22,17 +21,16 @@
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
 
-Your team has been hired as data science consultants for a news outlet to create classification models using Python and deploy it as a web application with Streamlit. 
-The aim is to provide you with a hands-on demonstration of applying machine learning techniques to natural language processing tasks.  This end-to-end project encompasses the entire workflow, including data loading, preprocessing, model training, evaluation, and final deployment. The primary stakeholders for the news classification project for the news outlet could include the editorial team, IT/tech support, management, readers, etc. These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
-
+Your team has been hired as data science consultants for a news outlet to create classification models using Python and deploy it as a web application with Streamlit.
+The aim is to provide you with a hands-on demonstration of applying machine learning techniques to natural language processing tasks. This end-to-end project encompasses the entire workflow, including data loading, preprocessing, model training, evaluation, and final deployment. The primary stakeholders for the news classification project for the news outlet could include the editorial team, IT/tech support, management, readers, etc. These groups are interested in improved content categorization, operational efficiency, and enhanced user experience.
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
-The dataset is comprised of news articles that need to be classified into categories based on their content, including `Business`, `Technology`, `Sports`, `Education`, and `Entertainment`. You can find both the `train.csv` and `test.csv` datasets [here](https://github.com/ereshia/2401FTDS_Classification_Project/tree/main/Data/processed).
+The dataset is comprised of news articles that need to be classified into categories based on their content, including `Business`, `Technology`, `Sports`, `Education`, and `Entertainment`. You can find both the `train.csv` and `test.csv` datasets [here](https://your-updated-dataset-link.com).
 
 **Dataset Features:**
 | **Column**                                                                                  | **Description**              
 |---------------------------------------------------------------------------------------------|--------------------   
-| Headlines   | 	The headline or title of the news article.
+| Headlines   |  The headline or title of the news article.
 | Description | A brief summary or description of the news article.
 | Content | The full text content of the news article.
 | URL | The URL link to the original source of the news article.
@@ -43,13 +41,12 @@ The dataset is comprised of news articles that need to be classified into catego
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
 + `Pandas 2.2.2` and `Numpy 1.26`
 + `Matplotlib 3.8.4`
- 
 
 ## 4. Environment <a class="anchor" id="environment"></a>
 
 It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
 
-### Create the new evironment - you only need to do this once
+### Create the new environment - you only need to do this once
 
 ```bash
 # create the conda environment
@@ -76,14 +73,14 @@ MLOps, which stands for Machine Learning Operations, is a practice focused on ma
 
 ### What is Streamlit?
 
-[Streamlit](https://www.streamlit.io/)  is a framework that acts as a web server with dynamic visuals, multiple responsive pages, and robust deployment of your models.
+[Streamlit](https://www.streamlit.io/) is a framework that acts as a web server with dynamic visuals, multiple responsive pages, and robust deployment of your models.
 
 In its own words:
 > Streamlit ... is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.
 
 > It’s a simple and powerful app model that lets you build rich UIs incredibly quickly.
 
-[Streamlit](https://www.streamlit.io/)  takes away much of the background work needed in order to get a platform which can deploy your models to clients and end users. Meaning that you get to focus on the important stuff (related to the data), and can largely ignore the rest. This will allow you to become a lot more productive.  
+[Streamlit](https://www.streamlit.io/) takes away much of the background work needed in order to get a platform which can deploy your models to clients and end users. Meaning that you get to focus on the important stuff (related to the data), and can largely ignore the rest. This will allow you to become a lot more productive.  
 
 ##### Description of files
 
@@ -92,7 +89,6 @@ For this repository, we are only concerned with a single file:
 | File Name              | Description                       |
 | :--------------------- | :--------------------             |
 | `base_app.py`          | Streamlit application definition. |
-
 
 #### 6.1 Running the Streamlit web app on your local machine
 
@@ -111,21 +107,9 @@ As a first step to becoming familiar with our web app's functioning, we recommen
  streamlit run base_app.py
  ```
 
- If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
-
-```
-  You can now view your Streamlit app in your browser.
-
-    Local URL: http://localhost:8501
-    Network URL: http://192.168.43.41:8501
-```
-You should also be automatically directed to the base page of your web app. This should look something like:
-
 <div id="s_image" align="center">
-  <img src="https://github.com/ereshia/2401FTDS_Classification_Project/blob/main/Streamlit_image.png" width="850" height="400" alt=""/>
+  <img src="https://your-updated-streamlit-image-link.com" width="850" height="400" alt="Streamlit App"/>
 </div>
-
-Congratulations! You've now officially deployed your first web application!
 
 #### 6.2 Deploying your Streamlit web app
 
@@ -133,9 +117,3 @@ Congratulations! You've now officially deployed your first web application!
   
 - Please note: If it's your first time deploying it will redirect you to set up an account first. Please follow the instructions.
 
-## 7. Team Members<a class="anchor" id="team-members"></a>
-
-| Name                                                                                        |  Email              
-|---------------------------------------------------------------------------------------------|--------------------             
-| [Oludare Adekunle](https://github.com/DareSandtech)                                         | oadekunle@sandtech.com
-| [Claudia Elliot-Wilson]()                                                                   | celliot-wilson@sandtech.com
